@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #3f51b5;
+}
+
+h2 {
+    color: #ff4081;
+}
+
+.schedule {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.time-slot {
+    background-color: #e3f2fd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    flex: 1 1 45%;
+}
+
+.hydration {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffe0b2;
+    border-radius: 8px;
+    text-align: center;
+}
+
+button {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e91e63;
+}
+
+.hidden {
+    display: none;
+}
+
+#hydrateMessage {
+    margin-top: 10px;
+    color: #4caf50;
+}
