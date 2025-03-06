@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Schedule</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Daily Schedule</h1>
+            <p>Plan your day effectively!</p>
+        </header>
+        <div class="schedule">
+            <div class="time-slot">
+                <h2>Morning</h2>
+                <p>Breakfast: <span id="breakfast-time">8:00 AM</span></p>
+                <p>Workout: <span id="workout-time">9:00 AM</span></p>
+            </div>
+            <div class="time-slot">
+                <h2>Afternoon</h2>
+                <p>Lunch: <span id="lunch-time">12:30 PM</span></p>
+                <p>Study: <span id="study-time">2:00 PM</span></p>
+            </div>
+            <div class="time-slot">
+                <h2>Evening</h2>
+                <p>Gym: <span id="gym-time">5:00 PM</span></p>
+                <p>Dinner: <span id="dinner-time">7:00 PM</span></p>
+            </div>
+            <div class="time-slot">
+                <h2>Night</h2>
+                <p>Sleep: <span id="sleep-time">10:00 PM</span></p>
+            </div>
+        </div>
+        <div class="hydration">
+            <h2>Hydration Reminder</h2>
+            <p>Water Intake: <span id="water-intake">2 liters</span></p>
+            <button id="hydrateButton">Log Water Intake</button>
+            <div id="hydrateMessage" class="hidden"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
